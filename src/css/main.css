@@ -1,0 +1,80 @@
+/**
+ * SwatchKit Main Stylesheet
+ *
+ * This is your app's CSS entry point. It declares the cascade-layer order,
+ * then imports each group of styles into its layer.
+ * Edit freely — this file is yours.
+ *
+ * Cascade layers make the cascade predictable: a later layer always wins over
+ * an earlier one, regardless of selector specificity. The order below is, from
+ * weakest to strongest:
+ *
+ *   reset        → browser reset
+ *   tokens       → design tokens + variables (custom properties)
+ *   elements     → bare element defaults (global/elements.css)
+ *   compositions → layout primitives (flow, cluster, sidebar, …)
+ *   swatches     → your component styles
+ *   app          → app/page-specific CSS (overrides components)
+ *   utilities    → explicit per-instance utility classes (the final word)
+ *
+ * Utilities are last on purpose: if you add a utility class in your markup,
+ * it should take effect. (Unlayered CSS still beats every layer — that's your
+ * emergency escape hatch.)
+ *
+ * Note: @import rules must come before any regular style rules. Keep the
+ * @layer declaration and all @import lines at the top; put app CSS in the
+ * @layer app { } block at the bottom.
+ *
+ * swatchkit init --force will overwrite blueprint files (with .bak backups).
+ * The only auto-generated file is css/utilities/utilities.css — do not edit it
+ * manually. Your design tokens live in css/global/tokens.css and are yours.
+ */
+
+/* Self-hosted variable fonts */
+@import "@fontsource-variable/source-serif-4/opsz.css";
+@import "@fontsource-variable/source-serif-4/opsz-italic.css";
+@import "@fontsource-variable/source-sans-3/wght.css";
+@import "@fontsource-variable/source-sans-3/wght-italic.css";
+
+/* Browser reset */
+@import "global/reset.css" layer(reset);
+
+/* Design tokens + variables (yours — edit global/tokens.css directly) */
+@import "global/tokens.css" layer(tokens);
+@import "global/variables.css" layer(tokens);
+
+/* Global element defaults */
+@import "global/elements.css" layer(elements);
+
+/* Layout compositions */
+@import "compositions/index.css" layer(compositions);
+
+/* Component swatches */
+@import "swatches/index.css" layer(swatches);
+
+/* Utility classes (generated from your @swatchkit token blocks) */
+@import "utilities/index.css" layer(utilities);
+
+@layer reset, tokens, elements, compositions, swatches, app, utilities;
+
+/* === Your App Styles === */
+/* Page/app CSS goes here. It overrides component styles but not utilities. */
+@layer app {
+  :root {
+    --wrapper-max-width: 1000px;
+  }
+  .prose hr {
+    --hr-stroke: 1px solid currentColor;
+    opacity: 0.3;
+  }
+
+  .resume-role {
+    --repel-vertical-alignment: baseline;
+  }
+
+  .resume-role time {
+    font-family: var(--font-heading);
+    font-size: var(--step--1);
+    white-space: nowrap;
+  }
+}

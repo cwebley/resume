@@ -1,0 +1,4 @@
+src/content/resume-html.js
+node_modules/
+dist/
+.DS_Store
