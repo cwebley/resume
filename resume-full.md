@@ -68,7 +68,7 @@ Staff Software Engineer specializing in full-stack infrastructure, developer too
 </div>
 
 - Built high-performance Go services that improved the throughput and reliability of a critical video-transcoding queue.
-- Contributed to an Angular-to-React migration and implemented infinite scrolling for large datasets.
+- Contributed to an Angular-to-React migration and created an infinite-scroll composition to improve homepage performance.
 
 ---
 

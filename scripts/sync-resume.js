@@ -4,7 +4,8 @@ import { fileURLToPath } from "node:url";
 import MarkdownIt from "markdown-it";
 
 const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const markdownPath = path.join(rootDir, "resume-full.md");
+const sourceFile = process.env.RESUME_SOURCE ?? "resume-full.md";
+const markdownPath = path.join(rootDir, sourceFile);
 const outputPath = path.join(rootDir, "src", "content", "resume-html.js");
 
 const markdown = await fs.readFile(markdownPath, "utf8");
@@ -20,7 +21,7 @@ const resumeHtml = parser.render(markdown);
 await fs.mkdir(path.dirname(outputPath), { recursive: true });
 await fs.writeFile(
   outputPath,
-  `// Generated from resume-full.md. Do not edit directly.\nexport const resumeHtml = ${JSON.stringify(resumeHtml)};\n`,
+  `// Generated from ${sourceFile}. Do not edit directly.\nexport const resumeHtml = ${JSON.stringify(resumeHtml)};\n`,
   "utf8",
 );
 
