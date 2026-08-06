@@ -9,6 +9,7 @@ export function home() {
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Cameron Webley | Staff Software Engineer</title>
+        <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
         <link rel="stylesheet" href="./css/main.css" />
       </head>
       <body class="wrapper region">
