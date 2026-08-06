@@ -91,6 +91,10 @@
 }
 
 @media print {
+  a {
+    text-decoration: none;
+  }
+
   .prose {
     min-inline-size: 0;
     max-inline-size: 100%;
