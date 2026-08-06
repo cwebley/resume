@@ -24,7 +24,7 @@
 body {
   background: var(--color-light);
   color: var(--color-dark);
-  font-size: var(--step-1);
+  font-size: var(--step--1);
   font-family: var(--font-base);
   line-height: var(--leading-standard);
   font-size-adjust: from-font;
@@ -47,17 +47,23 @@ body {
  * for readability - especially important for large headings.
  */
 h1 {
-  font-size: var(--step-6);
+  font-size: var(--step-4);
   max-width: 20ch;
 }
 
 h2 {
-  font-size: var(--step-5);
-  max-width: 35ch;
+  max-width: none;
+  font-family: var(--font-heading);
+  font-size: var(--step--1);
+  font-weight: var(--weight-bold);
+  line-height: var(--leading-fine);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 h3 {
-  font-size: var(--step-4);
+  font-family: var(--font-body);
+  font-size: var(--step-3);
   max-width: 35ch;
 }
 
@@ -66,7 +72,7 @@ h3 {
  * through context rather than size at this point.
  */
 :is(h4, h5, h6) {
-  font-size: var(--step-3);
+  font-size: var(--step-0);
 }
 
 /* ==========================================================================

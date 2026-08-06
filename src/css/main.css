@@ -61,20 +61,68 @@
 /* Page/app CSS goes here. It overrides component styles but not utilities. */
 @layer app {
   :root {
-    --wrapper-max-width: 1000px;
+    --wrapper-max-width: 900px;
   }
   .prose hr {
     --hr-stroke: 1px solid currentColor;
-    opacity: 0.3;
+    --flow-space: var(--space-m);
+    opacity: 0.7;
   }
 
   .resume-role {
     --repel-vertical-alignment: baseline;
+    --flow-space: var(--space-xs);
   }
 
   .resume-role time {
     font-family: var(--font-heading);
-    font-size: var(--step--1);
     white-space: nowrap;
+  }
+
+  .resume-role h4 {
+    min-inline-size: 0;
+    overflow-wrap: anywhere;
+  }
+}
+
+@page {
+  size: letter;
+  margin: 0.75in;
+}
+
+@media print {
+  .prose {
+    min-inline-size: 0;
+    max-inline-size: 100%;
+  }
+
+  /* --measure: 80ch; */
+  .wrapper {
+    max-inline-size: none;
+    padding-inline: 0;
+  }
+
+  .region {
+    padding-block: 0;
+  }
+
+  :is(h1, h2, h3, h4),
+  .resume-role {
+    break-inside: avoid;
+    break-after: avoid;
+  }
+
+  :is(p, li) {
+    orphans: 3;
+    widows: 3;
+  }
+
+  li {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  ul:not([class]) {
+    padding-inline-start: 2.7ch;
   }
 }

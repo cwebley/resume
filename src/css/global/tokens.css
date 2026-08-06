@@ -55,85 +55,85 @@
 
   /* @swatchkit text-sizes "Text Sizes" */
   --step--2: clamp(
-    calc(11.85 / var(--root-base) * 1rem),
+    calc(12 / var(--root-base) * 1rem),
     calc(
-      (11.85 - var(--vw-min) * (12.5 - 11.85) / (var(--vw-max) - var(--vw-min)))
+      (12 - var(--vw-min) * (13 - 12) / (var(--vw-max) - var(--vw-min)))
         / var(--root-base) * 1rem
-      + (12.5 - 11.85) / (var(--vw-max) - var(--vw-min)) * 100vw
+      + (13 - 12) / (var(--vw-max) - var(--vw-min)) * 100vw
     ),
-    calc(12.5 / var(--root-base) * 1rem)
+    calc(13 / var(--root-base) * 1rem)
   );
   --step--1: clamp(
-    calc(13.33 / var(--root-base) * 1rem),
+    calc(13 / var(--root-base) * 1rem),
     calc(
-      (13.33 - var(--vw-min) * (15 - 13.33) / (var(--vw-max) - var(--vw-min)))
+      (13 - var(--vw-min) * (14 - 13) / (var(--vw-max) - var(--vw-min)))
         / var(--root-base) * 1rem
-      + (15 - 13.33) / (var(--vw-max) - var(--vw-min)) * 100vw
+      + (14 - 13) / (var(--vw-max) - var(--vw-min)) * 100vw
     ),
-    calc(15 / var(--root-base) * 1rem)
+    calc(14 / var(--root-base) * 1rem)
   );
   --step-0: clamp(
     calc(15 / var(--root-base) * 1rem),
     calc(
-      (15 - var(--vw-min) * (18 - 15) / (var(--vw-max) - var(--vw-min)))
+      (15 - var(--vw-min) * (17 - 15) / (var(--vw-max) - var(--vw-min)))
         / var(--root-base) * 1rem
-      + (18 - 15) / (var(--vw-max) - var(--vw-min)) * 100vw
+      + (17 - 15) / (var(--vw-max) - var(--vw-min)) * 100vw
     ),
-    calc(18 / var(--root-base) * 1rem)
+    calc(17 / var(--root-base) * 1rem)
   );
   --step-1: clamp(
-    calc(16.88 / var(--root-base) * 1rem),
+    calc(16 / var(--root-base) * 1rem),
     calc(
-      (16.88 - var(--vw-min) * (21.6 - 16.88) / (var(--vw-max) - var(--vw-min)))
+      (16 - var(--vw-min) * (19 - 16) / (var(--vw-max) - var(--vw-min)))
         / var(--root-base) * 1rem
-      + (21.6 - 16.88) / (var(--vw-max) - var(--vw-min)) * 100vw
+      + (19 - 16) / (var(--vw-max) - var(--vw-min)) * 100vw
     ),
-    calc(21.6 / var(--root-base) * 1rem)
+    calc(19 / var(--root-base) * 1rem)
   );
   --step-2: clamp(
-    calc(18.98 / var(--root-base) * 1rem),
+    calc(18 / var(--root-base) * 1rem),
     calc(
-      (18.98 - var(--vw-min) * (25.92 - 18.98) / (var(--vw-max) - var(--vw-min)))
+      (18 - var(--vw-min) * (22 - 18) / (var(--vw-max) - var(--vw-min)))
         / var(--root-base) * 1rem
-      + (25.92 - 18.98) / (var(--vw-max) - var(--vw-min)) * 100vw
+      + (22 - 18) / (var(--vw-max) - var(--vw-min)) * 100vw
     ),
-    calc(25.92 / var(--root-base) * 1rem)
+    calc(22 / var(--root-base) * 1rem)
   );
   --step-3: clamp(
-    calc(21.36 / var(--root-base) * 1rem),
+    calc(21 / var(--root-base) * 1rem),
     calc(
-      (21.36 - var(--vw-min) * (31.1 - 21.36) / (var(--vw-max) - var(--vw-min)))
+      (21 - var(--vw-min) * (28 - 21) / (var(--vw-max) - var(--vw-min)))
         / var(--root-base) * 1rem
-      + (31.1 - 21.36) / (var(--vw-max) - var(--vw-min)) * 100vw
+      + (28 - 21) / (var(--vw-max) - var(--vw-min)) * 100vw
     ),
-    calc(31.1 / var(--root-base) * 1rem)
+    calc(28 / var(--root-base) * 1rem)
   );
   --step-4: clamp(
-    calc(24.03 / var(--root-base) * 1rem),
+    calc(25 / var(--root-base) * 1rem),
     calc(
-      (24.03 - var(--vw-min) * (37.32 - 24.03) / (var(--vw-max) - var(--vw-min)))
+      (25 - var(--vw-min) * (34 - 25) / (var(--vw-max) - var(--vw-min)))
         / var(--root-base) * 1rem
-      + (37.32 - 24.03) / (var(--vw-max) - var(--vw-min)) * 100vw
+      + (34 - 25) / (var(--vw-max) - var(--vw-min)) * 100vw
     ),
-    calc(37.32 / var(--root-base) * 1rem)
+    calc(34 / var(--root-base) * 1rem)
   );
   --step-5: clamp(
-    calc(27.03 / var(--root-base) * 1rem),
+    calc(30 / var(--root-base) * 1rem),
     calc(
-      (27.03 - var(--vw-min) * (44.79 - 27.03) / (var(--vw-max) - var(--vw-min)))
+      (30 - var(--vw-min) * (42 - 30) / (var(--vw-max) - var(--vw-min)))
         / var(--root-base) * 1rem
-      + (44.79 - 27.03) / (var(--vw-max) - var(--vw-min)) * 100vw
+      + (42 - 30) / (var(--vw-max) - var(--vw-min)) * 100vw
     ),
-    calc(44.79 / var(--root-base) * 1rem)
+    calc(42 / var(--root-base) * 1rem)
   );
   --step-6: clamp(
-    calc(30.41 / var(--root-base) * 1rem),
+    calc(36 / var(--root-base) * 1rem),
     calc(
-      (30.41 - var(--vw-min) * (53.75 - 30.41) / (var(--vw-max) - var(--vw-min)))
+      (36 - var(--vw-min) * (52 - 36) / (var(--vw-max) - var(--vw-min)))
         / var(--root-base) * 1rem
-      + (53.75 - 30.41) / (var(--vw-max) - var(--vw-min)) * 100vw
+      + (52 - 36) / (var(--vw-max) - var(--vw-min)) * 100vw
     ),
-    calc(53.75 / var(--root-base) * 1rem)
+    calc(52 / var(--root-base) * 1rem)
   );
   /* @swatchkit end */
 
@@ -148,112 +148,112 @@
     calc(8 / var(--root-base) * 1rem)
   );
   --space-s: clamp(
-    calc(14 / var(--root-base) * 1rem),
+    calc(8 / var(--root-base) * 1rem),
     calc(
-      (14 - var(--vw-min) * (16 - 14) / (var(--vw-max) - var(--vw-min)))
+      (8 - var(--vw-min) * (12 - 8) / (var(--vw-max) - var(--vw-min)))
         / var(--root-base) * 1rem
-      + (16 - 14) / (var(--vw-max) - var(--vw-min)) * 100vw
+      + (12 - 8) / (var(--vw-max) - var(--vw-min)) * 100vw
     ),
-    calc(16 / var(--root-base) * 1rem)
+    calc(12 / var(--root-base) * 1rem)
   );
   --space-m: clamp(
-    calc(21 / var(--root-base) * 1rem),
+    calc(12 / var(--root-base) * 1rem),
     calc(
-      (21 - var(--vw-min) * (24 - 21) / (var(--vw-max) - var(--vw-min)))
+      (12 - var(--vw-min) * (18 - 12) / (var(--vw-max) - var(--vw-min)))
         / var(--root-base) * 1rem
-      + (24 - 21) / (var(--vw-max) - var(--vw-min)) * 100vw
+      + (18 - 12) / (var(--vw-max) - var(--vw-min)) * 100vw
     ),
-    calc(24 / var(--root-base) * 1rem)
+    calc(18 / var(--root-base) * 1rem)
   );
   --space-l: clamp(
-    calc(35 / var(--root-base) * 1rem),
+    calc(20 / var(--root-base) * 1rem),
     calc(
-      (35 - var(--vw-min) * (40 - 35) / (var(--vw-max) - var(--vw-min)))
+      (20 - var(--vw-min) * (28 - 20) / (var(--vw-max) - var(--vw-min)))
         / var(--root-base) * 1rem
-      + (40 - 35) / (var(--vw-max) - var(--vw-min)) * 100vw
+      + (28 - 20) / (var(--vw-max) - var(--vw-min)) * 100vw
+    ),
+    calc(28 / var(--root-base) * 1rem)
+  );
+  --space-xl: clamp(
+    calc(28 / var(--root-base) * 1rem),
+    calc(
+      (28 - var(--vw-min) * (40 - 28) / (var(--vw-max) - var(--vw-min)))
+        / var(--root-base) * 1rem
+      + (40 - 28) / (var(--vw-max) - var(--vw-min)) * 100vw
     ),
     calc(40 / var(--root-base) * 1rem)
   );
-  --space-xl: clamp(
-    calc(49 / var(--root-base) * 1rem),
+  --space-2xl: clamp(
+    calc(40 / var(--root-base) * 1rem),
     calc(
-      (49 - var(--vw-min) * (56 - 49) / (var(--vw-max) - var(--vw-min)))
+      (40 - var(--vw-min) * (56 - 40) / (var(--vw-max) - var(--vw-min)))
         / var(--root-base) * 1rem
-      + (56 - 49) / (var(--vw-max) - var(--vw-min)) * 100vw
+      + (56 - 40) / (var(--vw-max) - var(--vw-min)) * 100vw
     ),
     calc(56 / var(--root-base) * 1rem)
   );
-  --space-2xl: clamp(
+  --space-3xl: clamp(
     calc(56 / var(--root-base) * 1rem),
     calc(
-      (56 - var(--vw-min) * (64 - 56) / (var(--vw-max) - var(--vw-min)))
+      (56 - var(--vw-min) * (72 - 56) / (var(--vw-max) - var(--vw-min)))
         / var(--root-base) * 1rem
-      + (64 - 56) / (var(--vw-max) - var(--vw-min)) * 100vw
+      + (72 - 56) / (var(--vw-max) - var(--vw-min)) * 100vw
     ),
-    calc(64 / var(--root-base) * 1rem)
-  );
-  --space-3xl: clamp(
-    calc(70 / var(--root-base) * 1rem),
-    calc(
-      (70 - var(--vw-min) * (80 - 70) / (var(--vw-max) - var(--vw-min)))
-        / var(--root-base) * 1rem
-      + (80 - 70) / (var(--vw-max) - var(--vw-min)) * 100vw
-    ),
-    calc(80 / var(--root-base) * 1rem)
+    calc(72 / var(--root-base) * 1rem)
   );
   --space-4xl: clamp(
-    calc(105 / var(--root-base) * 1rem),
+    calc(80 / var(--root-base) * 1rem),
     calc(
-      (105 - var(--vw-min) * (120 - 105) / (var(--vw-max) - var(--vw-min)))
+      (80 - var(--vw-min) * (96 - 80) / (var(--vw-max) - var(--vw-min)))
         / var(--root-base) * 1rem
-      + (120 - 105) / (var(--vw-max) - var(--vw-min)) * 100vw
+      + (96 - 80) / (var(--vw-max) - var(--vw-min)) * 100vw
     ),
-    calc(120 / var(--root-base) * 1rem)
+    calc(96 / var(--root-base) * 1rem)
   );
   --space-s-l: clamp(
-    calc(14 / var(--root-base) * 1rem),
+    calc(8 / var(--root-base) * 1rem),
     calc(
-      (14 - var(--vw-min) * (40 - 14) / (var(--vw-max) - var(--vw-min)))
+      (8 - var(--vw-min) * (28 - 8) / (var(--vw-max) - var(--vw-min)))
         / var(--root-base) * 1rem
-      + (40 - 14) / (var(--vw-max) - var(--vw-min)) * 100vw
+      + (28 - 8) / (var(--vw-max) - var(--vw-min)) * 100vw
     ),
-    calc(40 / var(--root-base) * 1rem)
+    calc(28 / var(--root-base) * 1rem)
   );
   --space-xs-l: clamp(
-    calc(7 / var(--root-base) * 1rem),
+    calc(4 / var(--root-base) * 1rem),
     calc(
-      (7 - var(--vw-min) * (40 - 7) / (var(--vw-max) - var(--vw-min)))
+      (4 - var(--vw-min) * (28 - 4) / (var(--vw-max) - var(--vw-min)))
         / var(--root-base) * 1rem
-      + (40 - 7) / (var(--vw-max) - var(--vw-min)) * 100vw
+      + (28 - 4) / (var(--vw-max) - var(--vw-min)) * 100vw
     ),
-    calc(40 / var(--root-base) * 1rem)
+    calc(28 / var(--root-base) * 1rem)
   );
   --space-m-l: clamp(
-    calc(21 / var(--root-base) * 1rem),
+    calc(12 / var(--root-base) * 1rem),
     calc(
-      (21 - var(--vw-min) * (40 - 21) / (var(--vw-max) - var(--vw-min)))
+      (12 - var(--vw-min) * (28 - 12) / (var(--vw-max) - var(--vw-min)))
         / var(--root-base) * 1rem
-      + (40 - 21) / (var(--vw-max) - var(--vw-min)) * 100vw
+      + (28 - 12) / (var(--vw-max) - var(--vw-min)) * 100vw
     ),
-    calc(40 / var(--root-base) * 1rem)
+    calc(28 / var(--root-base) * 1rem)
   );
   --space-s-m: clamp(
-    calc(14 / var(--root-base) * 1rem),
+    calc(8 / var(--root-base) * 1rem),
     calc(
-      (14 - var(--vw-min) * (24 - 14) / (var(--vw-max) - var(--vw-min)))
+      (8 - var(--vw-min) * (18 - 8) / (var(--vw-max) - var(--vw-min)))
         / var(--root-base) * 1rem
-      + (24 - 14) / (var(--vw-max) - var(--vw-min)) * 100vw
+      + (18 - 8) / (var(--vw-max) - var(--vw-min)) * 100vw
     ),
-    calc(24 / var(--root-base) * 1rem)
+    calc(18 / var(--root-base) * 1rem)
   );
   --space-2xl-4xl: clamp(
-    calc(56 / var(--root-base) * 1rem),
+    calc(40 / var(--root-base) * 1rem),
     calc(
-      (56 - var(--vw-min) * (120 - 56) / (var(--vw-max) - var(--vw-min)))
+      (40 - var(--vw-min) * (96 - 40) / (var(--vw-max) - var(--vw-min)))
         / var(--root-base) * 1rem
-      + (120 - 56) / (var(--vw-max) - var(--vw-min)) * 100vw
+      + (96 - 40) / (var(--vw-max) - var(--vw-min)) * 100vw
     ),
-    calc(120 / var(--root-base) * 1rem)
+    calc(96 / var(--root-base) * 1rem)
   );
   /* @swatchkit end */
 

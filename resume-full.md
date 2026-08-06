@@ -5,26 +5,22 @@ Austin, TX | [cameron.webley@gmail.com](mailto:cameron.webley@gmail.com) | [248-
 
 ---
 
-Staff Software Engineer specializing in design systems, developer tooling, and AI-assisted engineering workflows.
-
-Staff-level engineer with 12 years building full-stack infrastructure, design systems, and developer tooling. Led Visa's multi-framework design system and AI-assisted migration and validation systems.
+Staff Software Engineer specializing in full-stack infrastructure, developer tooling, and agentic engineering workflows.
 
 ---
 
 ## Expertise
 
 **Languages:** JavaScript, TypeScript, React, Angular, Node.js, Python, Go  
-**Web:** Semantic HTML, CSS architecture, design systems, design tokens, theming, accessibility  
-**Tooling:** MCP, LLM applications and evaluations, AI-assisted workflows, developer tooling, component APIs, Electron  
-**Infrastructure:** CI/CD, release pipelines, Docker, GitHub Actions, databases, testing, observability
+**Web:** CSS architecture, semantic HTML, W3C web standards, design systems, design tokens, theming, accessibility  
+**Tooling:** Agentic workflows, MCP, LLM applications and evaluations, developer tooling, component APIs  
+**Infrastructure:** CI/CD, release pipelines, Docker, GitHub Actions, databases, testing, observability, analytics
 
 ---
 
 ## Experience
 
 ### Visa
-
-Austin, TX | [design.visa.com](https://design.visa.com/)
 
 <div class="repel resume-role">
   <h4>Staff Design Engineer, Visa Product Design System</h4>
@@ -36,24 +32,15 @@ Austin, TX | [design.visa.com](https://design.visa.com/)
   <time>2019–22</time>
 </div>
 
-- Led architecture, platform development, operations, and adoption for Visa's global product design system, partnering across engineering, design, accessibility, content, legal, and product organizations.
+- Led architecture and platform development for Visa's product design system, partnering across engineering, design, accessibility, content, legal, and product organizations.
 - Evolved the design system into multi-framework developer tooling spanning React, Angular, HTML/CSS, and Flutter, generating more than 169,000 package downloads across public and internal registries.
-- Owned strategy and production operations for [design.visa.com](https://design.visa.com/), serving 24,000 unique visitors, generating 280,000 views and 6,535 code-snippet copies, and reaching users across 158 countries.
-- Set technical direction across component APIs, design tokens, theming, modern HTML and CSS architecture, testing, release pipelines, documentation, migrations, and adoption.
+- Owned production operations and release infrastructure for [design.visa.com](https://design.visa.com/), serving 24,000 unique visitors and generating 280,000 views across 158 countries. Built self-hosted GitHub Actions and Dependabot infrastructure, including agentic workflows for release automation.
 - Led accessibility strategy and a cross-functional theming initiative; helped design.visa.com achieve VGAR Level 5 certification and delivered three accessible reference brands through automated testing and legal review.
-- Built structured documentation and retrieval infrastructure through MCP and reusable agent workflows, running LLM evaluations to improve context quality and generated-output quality, and developed a Claude Code skill that delivers design-system, accessibility, content, and implementation guidance across the enterprise.
-- Expanded production operations and release infrastructure by unblocking Visa's mandated CI/CD framework, building self-hosted GitHub Actions and Dependabot infrastructure, and standardizing secure service-account and registry-access workflows.
+- Built structured documentation and retrieval infrastructure through MCP and reusable agent workflows, running LLM evaluations to improve generated-output quality, and developed a Claude Code skill that delivers design-system, accessibility, content, and implementation guidance across the enterprise.
+- Led NovaBeam, an AI-assisted application for migrating legacy applications to Visa's Nova design system, achieving an 84.6% success rate across 871 tracked operations.
 - Led global developer enablement through documentation, architectural consulting, migration support, office hours, and mentoring across North America, Europe, and Asia-Pacific.
 
-#### NovaBeam: AI-Assisted Migration Platform
-
-- Led NovaBeam, an AI-assisted platform for migrating legacy applications to Visa's design system; migrated 24 products and achieved an 84.6% success rate across 871 tracked operations.
-- Combined agent-driven context gathering and transformation with deterministic, testable codemods and automated review for structure, accessibility, and design-system compliance.
-- Designed the analytics platform and shipped NovaBeam as a cross-platform Electron application with one-command installation, automatic updates, and configurable workflows.
-
 ### Accretive Technology Group
-
-Austin, TX
 
 <div class="repel resume-role">
   <h4>Software Engineer</h4>
@@ -65,8 +52,6 @@ Austin, TX
 
 ### StreamMe
 
-Austin, TX
-
 <div class="repel resume-role">
   <h4>Software Engineer</h4>
   <time>2015–19</time>
@@ -76,8 +61,6 @@ Austin, TX
 - Built Node.js, Express, MySQL, and Redis APIs with application-wide role-based access control.
 
 ### Vubeology
-
-Austin, TX
 
 <div class="repel resume-role">
   <h4>Junior Software Developer</h4>
@@ -93,4 +76,4 @@ Austin, TX
 
 ### University of Michigan
 
-Bachelor of Science, Earth Science
+Bachelor of Science, Earth Science; Minor in Music
