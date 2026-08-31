@@ -32,13 +32,12 @@ Staff Software Engineer specializing in full-stack infrastructure, developer too
   <time>2019–22</time>
 </div>
 
-- Led architecture and platform development for Visa's product design system, partnering across engineering, design, accessibility, content, legal, and product organizations.
-- Evolved the design system into multi-framework developer tooling spanning React, Angular, HTML/CSS, and Flutter, generating more than 169,000 package downloads across public and internal registries.
-- Owned production operations and release infrastructure for [design.visa.com](https://design.visa.com/), serving 24,000 unique visitors and generating 280,000 views across 158 countries. Built self-hosted GitHub Actions and Dependabot infrastructure, including agentic workflows for release automation.
-- Led accessibility strategy and a cross-functional theming initiative; helped design.visa.com achieve VGAR Level 5 certification and delivered three accessible reference brands through automated testing and legal review.
-- Built structured documentation and retrieval infrastructure through MCP and reusable agent workflows, running LLM evaluations to improve generated-output quality, and developed a Claude Code skill that delivers design-system, accessibility, content, and implementation guidance across the enterprise.
-- Led NovaBeam, an AI-assisted application for migrating legacy applications to Visa's Nova design system, achieving an 84.6% success rate across 871 tracked operations.
-- Led global developer enablement through documentation, architectural consulting, migration support, office hours, and mentoring across North America, Europe, and Asia-Pacific.
+- Set technical direction and owned production operations for Visa's global design-system platform, including shared tooling for React, Angular, and HTML/CSS and the [design.visa.com](https://design.visa.com/) documentation site, while coordinating work across engineering, design, accessibility, content, legal, and product teams.
+- Embedded accessibility into component architecture, documentation, automated testing, and AI-assisted development guidance in partnership with Visa's accessibility team, aligning the platform with WCAG 2.2 and Visa's internal standards.
+- Built and evaluated a Claude Code design-system skill, MCP-based documentation retrieval, and reusable agent workflows that brought design-system and accessibility guidance into engineers' development environments.
+- Built self-hosted GitHub Actions, Dependabot, release automation, and credential workflows that enabled automated builds and dependency updates within Visa's restricted enterprise environment.
+- Led development of NovaBeam, an internal AI-assisted platform supporting design-system migrations across 25 legacy applications, combining agent-driven analysis and transformation, deterministic codemods, and an evaluation harness with automated checks, LLM-as-a-judge scoring, and human review.
+- Mentored and onboarded engineers within the design-system team through technical planning, architecture reviews, delivery guidance, and ongoing feedback. Served as the team's internal developer relations lead, advising product teams globally on architecture and migrations.
 
 ### Accretive Technology Group
 
