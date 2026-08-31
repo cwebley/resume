@@ -5,7 +5,7 @@ Austin, TX | [cameron.webley@gmail.com](mailto:cameron.webley@gmail.com) | [248-
 
 ---
 
-Staff Software Engineer specializing in full-stack infrastructure, agentic engineering workflows, and developer tooling.
+Staff Software Engineer with 11+ years of experience building shared web platforms, developer tooling, and agentic workflows.
 
 ---
 
@@ -37,7 +37,7 @@ Staff Software Engineer specializing in full-stack infrastructure, agentic engin
 - Developed and evaluated a Claude Code design-system skill, MCP-based documentation retrieval, and reusable agent workflows that brought design-system and accessibility guidance into engineers' development environments.
 - Established self-hosted GitHub Actions, Dependabot, release automation, and credential workflows that enabled automated builds and dependency updates within Visa's restricted enterprise environment.
 - Led development of NovaBeam, an internal AI-assisted platform supporting design-system migrations across 25 legacy applications, combining agent-driven analysis and transformation, deterministic codemods, and an evaluation harness with automated checks, LLM-as-a-judge scoring, and human review.
-- Mentored and onboarded engineers within the design-system team through technical planning, architecture reviews, delivery guidance, and ongoing feedback. Served as the team's internal developer relations lead, advising product teams globally on architecture and migrations.
+- Mentored and onboarded engineers within the design-system team; led cross-team developer relations, advising product engineers globally on architecture, migrations, and platform adoption.
 
 ### Accretive Technology Group
 
@@ -46,7 +46,7 @@ Staff Software Engineer specializing in full-stack infrastructure, agentic engin
   <time>2019</time>
 </div>
 
-- Built internal tooling for deployment orchestration, container management, load balancing, and service operations without direct command-line access.
+- Developed internal platform tooling for deployment orchestration, container management, load balancing, and service operations without direct command-line access.
 - Strengthened observability and analytics pipelines while modernizing a full-stack administrative platform.
 
 ### StreamMe
@@ -57,7 +57,7 @@ Staff Software Engineer specializing in full-stack infrastructure, agentic engin
 </div>
 
 - Designed shared React libraries, frontend architecture, and state-management patterns for a video platform.
-- Built Node.js, Express, MySQL, and Redis APIs with application-wide role-based access control.
+- Implemented Node.js, Express, MySQL, and Redis APIs with application-wide role-based access control.
 
 ### Vubeology
 
@@ -66,7 +66,7 @@ Staff Software Engineer specializing in full-stack infrastructure, agentic engin
   <time>2014–15</time>
 </div>
 
-- Built high-performance Go services that improved the throughput and reliability of a critical video-transcoding queue.
+- Improved the throughput and reliability of a critical video-transcoding queue with high-performance Go services.
 - Contributed to an Angular-to-React migration and created an infinite-scroll composition to improve homepage performance.
 
 ---
