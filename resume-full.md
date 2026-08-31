@@ -34,8 +34,8 @@ Staff Software Engineer specializing in full-stack infrastructure, developer too
 
 - Set technical direction and owned production operations for Visa's global design-system platform, including shared tooling for React, Angular, and HTML/CSS and the [design.visa.com](https://design.visa.com/) documentation site, while coordinating work across engineering, design, accessibility, content, legal, and product teams.
 - Embedded accessibility into component architecture, documentation, automated testing, and AI-assisted development guidance in partnership with Visa's accessibility team, aligning the platform with WCAG 2.2 and Visa's internal standards.
-- Built and evaluated a Claude Code design-system skill, MCP-based documentation retrieval, and reusable agent workflows that brought design-system and accessibility guidance into engineers' development environments.
-- Built self-hosted GitHub Actions, Dependabot, release automation, and credential workflows that enabled automated builds and dependency updates within Visa's restricted enterprise environment.
+- Developed and evaluated a Claude Code design-system skill, MCP-based documentation retrieval, and reusable agent workflows that brought design-system and accessibility guidance into engineers' development environments.
+- Established self-hosted GitHub Actions, Dependabot, release automation, and credential workflows that enabled automated builds and dependency updates within Visa's restricted enterprise environment.
 - Led development of NovaBeam, an internal AI-assisted platform supporting design-system migrations across 25 legacy applications, combining agent-driven analysis and transformation, deterministic codemods, and an evaluation harness with automated checks, LLM-as-a-judge scoring, and human review.
 - Mentored and onboarded engineers within the design-system team through technical planning, architecture reviews, delivery guidance, and ongoing feedback. Served as the team's internal developer relations lead, advising product teams globally on architecture and migrations.
 
