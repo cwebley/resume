@@ -5,7 +5,7 @@ Austin, TX | [cameron.webley@gmail.com](mailto:cameron.webley@gmail.com) | [248-
 
 ---
 
-Staff Software Engineer specializing in full-stack infrastructure, developer tooling, and agentic engineering workflows.
+Staff Software Engineer specializing in full-stack infrastructure, agentic engineering workflows, and developer tooling.
 
 ---
 
