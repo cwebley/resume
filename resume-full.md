@@ -5,16 +5,16 @@ Austin, TX | [cameron.webley@gmail.com](mailto:cameron.webley@gmail.com) | [248-
 
 ---
 
-Staff Software Engineer with 11+ years of experience building shared web platforms, developer tooling, and agentic workflows.
+Staff Software Engineer with 11+ years building full-stack applications, shared platforms, and real-time systems. Most recently responsible for technical direction, cross-team architecture guidance, and production operations for Visa's global design-system platform.
 
 ---
 
 ## Expertise
 
-**Languages:** JavaScript, TypeScript, React, Angular, Node.js, Python, Go  
-**Web:** CSS architecture, semantic HTML, W3C web standards, design systems, design tokens, theming, accessibility  
-**Tooling:** Agentic workflows, MCP, LLM applications and evaluations, developer tooling, component APIs  
-**Infrastructure:** CI/CD, release pipelines, Docker, GitHub Actions, databases, testing, observability, analytics
+**Frontend:** JavaScript, TypeScript, React, Angular, state management, CSS architecture, semantic HTML, accessibility, design systems  
+**Backend and data:** Node.js, Express, Go, API design, PostgreSQL, MySQL, Redis, analytics pipelines  
+**Operations:** CI/CD, GitHub Actions, Docker, GCP, observability, automated testing, security testing, zero-downtime releases  
+**Technical leadership:** Cross-team architecture, engineering standards, production ownership, mentorship, platform migrations
 
 ---
 
@@ -32,12 +32,12 @@ Staff Software Engineer with 11+ years of experience building shared web platfor
   <time>2019–22</time>
 </div>
 
-- Set technical direction and owned production operations for Visa's global design-system platform, including shared tooling for React, Angular, and HTML/CSS and the [design.visa.com](https://design.visa.com/) documentation site, while coordinating work across engineering, design, accessibility, content, legal, and product teams.
-- Embedded accessibility into component architecture, documentation, automated testing, and AI-assisted development guidance in partnership with Visa's accessibility team, aligning the platform with WCAG 2.2 and Visa's internal standards.
-- Developed and evaluated a Claude Code design-system skill, MCP-based documentation retrieval, and reusable agent workflows that brought design-system and accessibility guidance into engineers' development environments.
-- Established self-hosted GitHub Actions, Dependabot, release automation, and credential workflows that enabled automated builds and dependency updates within Visa's restricted enterprise environment.
-- Led development of NovaBeam, an internal AI-assisted platform supporting design-system migrations across 25 legacy applications, combining agent-driven analysis and transformation, deterministic codemods, and an evaluation harness with automated checks, LLM-as-a-judge scoring, and human review.
-- Mentored and onboarded engineers within the design-system team; led cross-team developer relations, advising product engineers globally on architecture, migrations, and platform adoption.
+- Set technical direction and owned production operations for Visa's global design-system platform, with component libraries totaling 200,000+ package downloads across public and internal registries. Coordinated delivery of React, Angular, HTML/CSS, and [design.visa.com](https://design.visa.com/) across engineering, design, accessibility, legal, and product teams.
+- Unified separate component libraries through a shared API powering Visa's design-system MCP server. Designed, built, and operated the service, delivering release-synchronized documentation, compiled examples, design guidelines, and AI-assisted component selection and example generation.
+- Represented the design-system team in three weekly office-hours calls for Visa's global developer community, mentoring hundreds of developers. Trusted as the primary point of contact for production issues in applications using the design system.
+- Embedded WCAG 2.2 accessibility standards into component architecture, documentation, and automated testing with Visa's accessibility team.
+- Architected zero-downtime releases, rollback, and failover for design.visa.com across two regions. Integrated self-hosted GitHub Actions, coverage checks, and Sonar security testing within Visa's restricted environment, resolving findings before release.
+- Led NovaBeam from prototype to production for AI-assisted migrations across 25 legacy applications, combining agent-driven analysis, deterministic codemods, and an evaluation harness with automated checks and LLM-as-a-judge scoring.
 
 ### Accretive Technology Group
 
@@ -46,7 +46,7 @@ Staff Software Engineer with 11+ years of experience building shared web platfor
   <time>2019</time>
 </div>
 
-- Developed internal platform tooling for deployment orchestration, container management, load balancing, and service operations without direct command-line access.
+- Built GCP tooling for Docker deployment orchestration and load balancing without command-line access.
 - Strengthened observability and analytics pipelines while modernizing a full-stack administrative platform.
 
 ### StreamMe
@@ -56,8 +56,8 @@ Staff Software Engineer with 11+ years of experience building shared web platfor
   <time>2015–19</time>
 </div>
 
-- Designed shared React libraries, frontend architecture, and state-management patterns for a video platform.
-- Implemented Node.js, Express, MySQL, and Redis APIs with application-wide role-based access control.
+- Built production APIs with Node.js, Express, MySQL, and Redis for a live-video platform, alongside shared React libraries, frontend architecture, and state-management patterns.
+- Designed a high-throughput WebSocket chat protocol and parser used during sponsored livestreams with 100,000 concurrent viewers.
 
 ### Vubeology
 
@@ -67,7 +67,7 @@ Staff Software Engineer with 11+ years of experience building shared web platfor
 </div>
 
 - Improved the throughput and reliability of a critical video-transcoding queue with high-performance Go services.
-- Contributed to an Angular-to-React migration and created an infinite-scroll composition to improve homepage performance.
+- Contributed to an Angular-to-React migration and built an infinite-scroll composition to improve homepage performance.
 
 ---
 
