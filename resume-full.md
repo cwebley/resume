@@ -47,6 +47,7 @@ Staff Software Engineer with 11+ years building full-stack applications, shared 
 </div>
 
 - Built GCP tooling for Docker deployment orchestration and load balancing without command-line access.
+- Strengthened observability and analytics pipelines while modernizing a full-stack administrative platform.
 
 ### StreamMe
 
