@@ -12,7 +12,7 @@ Staff Software Engineer with 11+ years building full-stack applications, shared 
 ## Expertise
 
 **Frontend:** JavaScript, TypeScript, React, Angular, state management, CSS architecture, semantic HTML, accessibility, design systems  
-**Backend and data:** Node.js, Express, Go, API design, PostgreSQL, MySQL, Redis, analytics pipelines  
+**Backend and data:** Node.js, Express, Go, API design, SQL, Redis, analytics pipelines, role-based access control  
 **Operations:** CI/CD, GitHub Actions, Docker, GCP, observability, automated testing, security testing, zero-downtime releases  
 **Technical leadership:** Cross-team architecture, engineering standards, production ownership, mentorship, platform migrations
 
