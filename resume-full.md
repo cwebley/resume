@@ -33,7 +33,7 @@ Staff Software Engineer with 11+ years building full-stack applications, shared 
   <time>2019–22</time>
 </div>
 
-- Set technical direction and owned production operations for Visa's global design-system platform, with component libraries totaling 200,000+ package downloads across public and internal registries. Coordinated delivery of three component libraries and the [design.visa.com](https://design.visa.com/) documentation site across engineering, design, accessibility, legal, and product teams.
+- Set technical direction and owned production operations for Visa's global design-system platform, with component libraries totaling 200,000+ package downloads across public and internal registries. Coordinated delivery of [design.visa.com](https://design.visa.com/) and related platform products across engineering, design, accessibility, legal, and product teams.
 - Unified separate component libraries through a shared API powering Visa's design-system MCP server. Designed, built, and operated the service, delivering release-synchronized documentation, compiled examples, design guidelines, and AI-assisted component selection and example generation.
 - Represented the design-system team in three weekly office-hours calls for Visa's global developer community, mentoring hundreds of developers. Trusted as the primary point of contact for production issues in applications using the design system.
 - Embedded WCAG 2.2 accessibility standards into component architecture, documentation, and automated testing with Visa's accessibility team.
