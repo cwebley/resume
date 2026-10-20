@@ -5,7 +5,7 @@ Austin, TX | [cameron.webley@gmail.com](mailto:cameron.webley@gmail.com) | [248-
 
 ---
 
-Staff Software Engineer with 11+ years building full-stack applications, shared platforms, and real-time systems. Most recently responsible for technical direction, cross-team architecture guidance, and production operations for Visa's global design-system platform.
+Staff Software Engineer with 11+ years building full-stack applications, shared platforms, and real-time systems. Most recently responsible for technical direction, cross-team architecture guidance, and production operations for Visa's global design-system platform, including AI-assisted developer tooling and migration workflows.
 
 ---
 
