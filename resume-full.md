@@ -11,7 +11,7 @@ Staff Software Engineer with 11+ years building full-stack applications, shared 
 
 ## Expertise
 
-**Frontend:** JavaScript, TypeScript, React, Angular, state management, CSS architecture, semantic HTML, accessibility, design systems  
+**Frontend:** JavaScript, TypeScript, React, Angular, state management, modern HTML/CSS and browser APIs, accessibility, design systems  
 **Backend and data:** Node.js, Express, Go, API design, SQL, Redis, analytics pipelines, role-based access control  
 **Operations:** CI/CD, GitHub Actions, Docker, GCP, observability, automated and security testing, zero-downtime releases  
 **AI and developer tooling:** LLM applications, agentic workflows, evaluation harnesses, scoring, MCP, skills, classification metrics including precision, recall, and F1
@@ -24,7 +24,7 @@ Staff Software Engineer with 11+ years building full-stack applications, shared 
 
 <div class="repel resume-role">
   <h4>Staff Design Engineer, Visa Product Design System</h4>
-  <time>2022–present</time>
+  <time>2022–2026</time>
 </div>
 
 <div class="repel resume-role">
@@ -36,7 +36,7 @@ Staff Software Engineer with 11+ years building full-stack applications, shared 
 - Designed, built, and operated a shared API and MCP server across Visa's component libraries, delivering release-synchronized documentation, compiled examples, and AI-assisted component selection and example generation.
 - Mentored hundreds of developers through three weekly office-hours calls for Visa's global developer community. Served as the primary contact for production issues involving the design system.
 - Embedded WCAG 2.2 accessibility standards into component architecture, documentation, and automated testing with Visa's accessibility team.
-- Architected zero-downtime releases, rollback, and failover for design.visa.com across two regions. Integrated self-hosted GitHub Actions, coverage checks, and Sonar security testing within Visa's restricted environment, resolving findings before release.
+- Architected zero-downtime releases, rollback, and failover for design.visa.com across two regions. Integrated self-hosted GitHub Actions, coverage checks, and Sonar security testing within Visa's restricted environment, establishing release standards for test coverage and security findings.
 - Led NovaBeam from prototype to production for AI-assisted migrations across 25 legacy applications, combining agent-driven analysis, deterministic codemods, and an evaluation harness. Built SQL-backed telemetry and analytics dashboards that set release priorities.
 
 ### Accretive Technology Group
